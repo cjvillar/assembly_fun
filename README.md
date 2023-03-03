@@ -1,5 +1,6 @@
-# assembly_fun
-Assembly is fun and cool. 
+# assembly_fun  💾
+Assembly is fun and cooler than Python until you have to do anything other than 'Hello World'. 
+
 Here I'll use the Netwide Assembler (NASM).
 
 ## Quick Start
