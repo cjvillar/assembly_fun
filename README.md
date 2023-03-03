@@ -18,7 +18,7 @@ Here I'll use the Netwide Assembler (NASM).
 
 5. Feel really cool with a slight amount of imposter syndrome.
 
-### Extra fun.
+### Extra fun:
 I have included 'hello' world in C to show the difference 
 
 
