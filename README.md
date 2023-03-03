@@ -18,3 +18,25 @@ Here I'll use the Netwide Assembler (NASM).
 
 5. Feel really cool with a slight amount of imposter syndrome.
 
+### Extra fun.
+I have included 'hello' world in C to show the difference 
+
+
+
+Also, if you use `otool -tv helloWorld` you can see the machine instructions for the program.
+
+```
+
+helloWorld.o:
+(__TEXT,__text) section
+_main:
+0000000000000000        movl    $0x2000004, %eax                ## imm = 0x2000004
+0000000000000005        movl    $0x1, %edi
+000000000000000a        movabsq $0x0, %rsi
+0000000000000014        movl    $0xd, %edx
+0000000000000019        syscall
+000000000000001b        movl    $0x2000001, %eax                ## imm = 0x2000001
+0000000000000020        xorq    %rdi, %rdi
+0000000000000023        syscall
+
+```
