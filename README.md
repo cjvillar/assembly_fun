@@ -14,6 +14,8 @@ Here I'll use the Netwide Assembler (NASM).
 3. Get a headache trying to remember how to link and turn the file into an executable with `ld` on mac, but then remember you can use gcc:
 `gcc <name_of_file>.o -o <name_of_executable>`
 
+*provided your entry point is _main*
+
 4. Run `./<name_of_executable>`
 
 5. Feel really cool with a slight amount of imposter syndrome.
